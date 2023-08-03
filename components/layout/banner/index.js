@@ -1,12 +1,14 @@
 import Image from "next/image";
 import React from "react";
 
-const Banner = ()=>{
-    return(
-        <div>
-            <Image />
-        </div>
-    )
-}
+import style from './style.module.css'
+
+const Banner = () => {
+  return (
+    <div className={style.banner}> 
+      <img src="/images/forest.svg"/>
+    </div>
+  );
+};
 
 export default Banner;
