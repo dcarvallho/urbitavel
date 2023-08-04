@@ -1,0 +1,15 @@
+.button {
+    background-color: red;
+}
+
+.text {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    padding-top: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.button a {
+    color: white;
+}
