@@ -20,12 +20,55 @@
     list-style: none;
 }
 
+.navLeft li {
+    padding-top: 0.6rem;
+    margin-right: 2.5rem;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+}
+
+.navLeft li:hover {
+    border-bottom: 3px solid white;
+    transition: 0.4s;
+}
+
+.navLeft a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.navRight {
+    display: flex;
+    margin-right: 5rem;
+}
+
+.navRight li {
+    padding-top: 0.6rem;
+    margin-right: 2.5rem;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+}
+
+.navRight a {
+    list-style: none;
+    text-decoration: none;
+    color: #847D7D;
+}
+
+.navRight ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
 .title {
     padding-right: 1rem;
     color: #FFFFFF;
     font-family: 'Epilogue', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 2.5rem;
     line-height: 2.5rem;
     align-items: center;

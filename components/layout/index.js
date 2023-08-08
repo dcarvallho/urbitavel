@@ -8,7 +8,7 @@ const Wrapper = ({ children }) => {
     <div>
       <Navbar />
       <Banner />
-      <main>{children}</main>
+      <main style={{ height: "600px" }}>{children}</main>
       <Footer />
     </div>
   );

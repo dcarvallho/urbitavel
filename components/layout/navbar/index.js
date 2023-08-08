@@ -1,7 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import style from "./style.module.css";
+
+import Link from "next/link";
 import Image from "next/image";
+import Button from "../button";
 
 const Navbar = ({ home, about, behind, talkUs, privacity }) => {
   const title = "URBITÁVEL";
@@ -13,17 +16,27 @@ const Navbar = ({ home, about, behind, talkUs, privacity }) => {
           <h1 className={style.title}>{title}</h1>
           <Image src={"/images/icon.svg"} width="32" height="32" alt="Mundo" />
           <ul>
-            <li>{home}</li>
-            <li>{about}</li>
-            <li>{behind}</li>
+            <li>
+              <Link href="">{home}</Link>
+            </li>
+            <li>
+              <Link href="">{about}</Link>
+            </li>
+            <li>
+              <Link href="">{behind}</Link>
+            </li>
           </ul>
         </div>
-        <div>
+        <div className={style.navRight}>
           <ul>
-            <li>{talkUs}</li>
-            <li>{privacity}</li>
+            <li>
+              <Link href="">{talkUs}</Link>
+            </li>
+            <li>
+              <Link href="">{privacity}</Link>
+            </li>
           </ul>
-          <button>Apoie</button>
+          <Button />
         </div>
       </nav>
     </>

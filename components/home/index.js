@@ -1,10 +1,16 @@
 import React from 'react'
+import style from './style.module.css'
 
 const HomeContainer = ()=>{
     return(
-        <>
-            <h1>Testing Home Page</h1>
-        </>
+        <div className={style.container}>
+            <div>
+                Urbitável
+            </div>
+            <div>
+                Lixeira
+            </div>
+        </div>
     )
 }
 
