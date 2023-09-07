@@ -1,8 +1,12 @@
 .container {
     height: 495px;
     width: 1318px;
-    background-color: gray;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     margin: auto;
+    position: absolute;
+    top: 15rem;
+    left: 15%;
+    border-radius: 3.5rem;
 }
