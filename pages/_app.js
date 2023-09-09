@@ -8,9 +8,9 @@ import { Provider } from "react-redux";
 function MyApp({ Component, pageProps }) {
   return (
     <Provider store={store}>
-      <Wrapper>
-        <Component {...pageProps} />
-      </Wrapper>
+        <Wrapper>
+          <Component {...pageProps} />
+        </Wrapper>
     </Provider>
   );
 }
