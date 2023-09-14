@@ -12,4 +12,7 @@ module.exports = {
     "/examples/",
     "config.js",
   ],
+  transform: {
+    "^.+\\.[jt]sx?$": "babel-jest"
+  }
 };
