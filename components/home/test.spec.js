@@ -6,16 +6,19 @@ import HomeContainer from ".";
 import { Provider } from "react-redux";
 import { store } from "../../store";
 
+const setup = () => {
+  render(
+    <Provider store={store}>
+      <HomeContainer />
+    </Provider>
+  );
+};
+
 describe("<HomeContainer/>", () => {
   it("Should render component properly", () => {
-    render(
-      <Provider store={store}>
-        <HomeContainer />
-      </Provider>
-    );
-
-    expect(screen.getByText(/urbitável/i)).toBeInTheDocument();
-
-    expect(screen.getByText(/lixeira/i)).toBeInTheDocument();
+    setup();
+    expect(screen.getByText(/iniciativa coletiva/i)).toBeInTheDocument();
+    expect(screen.getByText(/ideia interventiva/i)).toBeInTheDocument();
+    expect(screen.getByAltText(/lixeira/i)).toBeInTheDocument();
   });
 });

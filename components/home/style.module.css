@@ -1,5 +1,5 @@
 .container {
-    height: 495px;
+    height: 700px;
     width: 1318px;
     background-color: white;
     display: flex;
@@ -9,4 +9,35 @@
     top: 15rem;
     left: 15%;
     border-radius: 3.5rem;
+    box-shadow: 0px 6px 4px gray;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.urbitaveleft {
+    font-family: 'Epilogue', sans-serif;
+    flex-flow: column wrap;
+    display: flex;
+    width: 30%;
+}
+
+.header {
+    color: #678363;
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contentMain {
+    border-top: 1px transparent white;
+}
+
+.trashRight {
+    border-radius: 1rem;
+}
+
+.wrapper {
+    margin-top: 7rem;
+    text-align: center;
 }
