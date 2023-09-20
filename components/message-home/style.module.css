@@ -1,0 +1,36 @@
+.wrapperMessage{
+    width: 800;
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.styleHeader {
+    color: #484545;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 3.5rem;
+}
+
+.styleHeader h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.styleHeader h3{
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+
+.mainContent{
+    flex-flow: column wrap;
+    color: #484545;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.mainContent span{
+    display: flex;
+    justify-content: center;
+}

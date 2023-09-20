@@ -31,13 +31,9 @@
 
 .contentMain {
     border-top: 1px transparent white;
+    font-size: 18px;
 }
 
 .trashRight {
     border-radius: 1rem;
-}
-
-.wrapper {
-    margin-top: 7rem;
-    text-align: center;
 }
