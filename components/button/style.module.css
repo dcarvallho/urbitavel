@@ -1,0 +1,17 @@
+.buttonNextPage {
+    border: 2px solid #3B4E92;
+    border-radius: 6px;
+    margin: 3rem auto;
+    text-align: center;
+    color: #3B4E92;
+    padding: 1.3rem;
+    width: 13%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonNextPage a{
+    text-decoration: none;
+}

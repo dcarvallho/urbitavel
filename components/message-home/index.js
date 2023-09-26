@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonBlue from "../button";
 import style from "./style.module.css";
 
 const MessageHome = () => {
@@ -20,6 +21,7 @@ const MessageHome = () => {
           <br></br> Temos décadas de ativismo que muito nos ensinou e que
           <br></br> nos mostra que ainda temos muito o que fazer.
         </span>
+        <ButtonBlue />
       </main>
     </div>
   );
